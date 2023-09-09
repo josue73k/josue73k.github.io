@@ -140,8 +140,7 @@ body footer{
 
 .contenedor-head{
     flex:100%;
-    /* display: flex; */
-    display: none;
+    display: flex;
     align-content: flex-start;
     flex-wrap: wrap;
 
