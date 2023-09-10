@@ -624,7 +624,7 @@ article a{
 }
 
 /*             footer            */
-
+/* 
 .pie {
   flex: 100%;
   display: flex;
@@ -666,7 +666,7 @@ article a{
   padding: 12px 0 12px 0;
   background-color: var(--color-primario);
   transition: var(--color-primario) 0.3s ease-out, color 0.5s ease-out;
-}
+} */
 
 /*                 para el nav desplegable                    */
 

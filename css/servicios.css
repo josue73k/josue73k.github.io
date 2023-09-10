@@ -173,12 +173,22 @@ footer {
   }
 }
 
+/* 
+@MEDIA SCREEN AND (MAX-WIDTH: 768PX) {
+  BODY FOOTER {
+    
+    MARGIN-TOP: 450PX;
+  }
+
+} */
+
+
 body footer {
   display: grid;
   float: bottom;
   width: 100%;
   height: auto;
-  margin-top: 200px;
+  margin-top: 283px;
 }
 
 /*                 navegacion              */
@@ -347,13 +357,24 @@ body footer {
 
 /*             uno            */
 
+.section {
+  padding: 2rem 1rem;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: var(--max-width);
+}
+
+ /* agg esto nuevo debo reisar ese section y ese container */
 .contenuno {
   flex-grow: 1;
   display: grid;
   place-items: center;
   width: auto;
   height: 50%;
-  padding: 2vh 1vw 2vh 1vw;
+  /* padding: 2vh 1vw 2vh 1vw; */
   margin: 0 ;
   /* left: 0; */
   
@@ -468,6 +489,13 @@ body footer {
 @media screen and (min-width: 1024px) {
   .footer {
     margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    margin-bottom: 6vh; 
+    width: auto;
   }
 }
 
